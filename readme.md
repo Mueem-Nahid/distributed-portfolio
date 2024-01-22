@@ -1,9 +1,12 @@
 # Distributed Portfolio:
 
 ## Installation:
-
--  Start docker desktop
-- Open project folder and open a terminal
+- Clone the repository
+- Open the project in your IDE and Open project folder and open a terminal
+- Update sub modules ``git submodule update --init --recursive --remote``
+- If you can’t update the submodule please try to set up a GitHub account with ssh token and try again.
+  You may search for it on the internet it is easy to set up.
+- Start docker desktop
 - Go to `app/backend/` directory and copy the `.env.sample` and paste as `.env` in the same directory
 - Go to `app/frontend/` directory and copy the `.env.sample` and paste as `.env` in the same directory
 - Hit `docker compose build`
