@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = app/backend
-	url = git@github.com:Mueem-Nahid/distributed-portfolio-backend.git
+	url = https://github.com/Mueem-Nahid/distributed-portfolio-backend.git
 	branch = main
 
 [submodule "frontend"]
 	path = app/frontend
-	url = git@github.com:Mueem-Nahid/distributed-portfolio-frontend.git
+	url = https://github.com/Mueem-Nahid/distributed-portfolio-frontend.git
 	branch = main
